@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Header background */
+header {
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+.logo h2{
+    font-size: 45px;
+    /* font-weight: 700; */
+    /* color: #FD6E0A; */
+}
+.color-orange{
+    color: #FD6E0A;
+}
+nav{
+    
+    width: 81%;
+    max-width: 1288px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    padding: 17px 34px 20.58px 34px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    /* cursor: pointer; */
+}
+
+nav .menu{
+    list-style-type: none;
+    display: flex;
+    gap: 61px;
+    text-align: center;
+}
+nav .menu a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #474747;
+}
+
