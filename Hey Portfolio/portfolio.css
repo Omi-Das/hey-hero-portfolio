@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .font-open-sans {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -10,9 +11,21 @@
 
 /* Header background */
 header {
+   /* background: url("../images/developer.png"),url("../images/header-bg.png,"),#FFF8F3;
+    background-position: top left, bottom right; */
     background-color: #FFF8F3;
     padding-top: 50px;
+
+    background-image: 
+        url("../hero-dev-code/images/developer.png"),
+        url("../hero-dev-code/images/header_bg.png");
+
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+      /* size control */
+   background-size: contain, 500px auto; 
 }
+
 .logo h2{
     font-size: 45px;
     /* font-weight: 700; */
@@ -23,7 +36,7 @@ header {
 }
 nav{
     
-    width: 81%;
+    width: 84%;
     max-width: 1288px;
     /* border: 1px solid red; */
     margin: 0 auto;
@@ -52,4 +65,84 @@ nav .menu a{
     font-size: 15px;
     color: #474747;
 }
+#banner{
+    /* border:1px solid red; */
+    margin: 21px 38px 0px 213px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content{
+    max-width: 682px;
+ }
 
+
+#banner .banner-content h2{
+   font-size: 25px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color:#474747;
+}
+#banner .banner-content h1{
+    font-size: 65px;
+    margin-bottom: 20px;
+    color:black;
+    font-weight: bold;
+    max-width: 500px;
+}
+#banner .banner-content p{
+    color: #757575;
+    font-size: 30px;
+   line-height: 30px;
+    margin-bottom: 15px;
+}
+#banner .banner-content img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+#about{
+    padding-top: 130px;
+}
+
+#about .about-container{
+    max-width: 1140px;
+    max-width: 74.12%;
+    margin:0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 157px 131px 156px;
+}
+
+.section-heading{
+    max-width:827px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+    /* color: #474747;
+    font-weight: 600; */
+}
+.section-heading p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-card p{
+    /* margin-top: 15px; */
+    font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+}
+.about-info .info-card p{
+    /* margin-top: 15px; */
+    font-size: 20px;
+    color: black;
+   ;
+}
